@@ -1,16 +1,13 @@
 import React from "react";
-import { BrowserRouter, Routes, Route ,Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import CommonLoginScreen from "./Components/CommonLoginScreen";
 import ForgotPassword from "./Components/ForgotPassword";
-import PlacementReaset from "./Components/PlacementReset"
+import PlacementReaset from "./Components/PlacementReset";
 import ResetPassword from "./Components/ResetPassword";
 import SuccessfulPage from "./Components/SuccessfulPage";
-<<<<<<< HEAD
-import Recruiterregistration from "./Components-Registrationpages/Recruiter-registration"
-=======
+import Recruiterregistration from "./Components-Registrationpages/Recruiter-registration";
 
->>>>>>> cd447fb618b5d447409b9f6d400a74050417a96c
 
 
 
@@ -42,14 +39,13 @@ function App() {
           path="/password-success"
           element={<SuccessfulPage />}
         />
-<<<<<<< HEAD
+
           <Route
           path="/recruiter-registration"
-          element={<Recruiterregistration/>}
+          element={<Recruiterregistration />}
 
         />
-=======
->>>>>>> cd447fb618b5d447409b9f6d400a74050417a96c
+
       </Routes>
     </BrowserRouter>
   );

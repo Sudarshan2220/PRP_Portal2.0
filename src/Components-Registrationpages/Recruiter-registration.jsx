@@ -143,7 +143,7 @@ export default function Registration() {
 
           <div className="registration-login-prompt">
             <span>Already have an account?</span>
-            <a href="/login">Login</a>
+            <a href="">Login</a>
           </div>
         </div>
       </section>
