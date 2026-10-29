@@ -7,6 +7,7 @@ import PlacementReaset from "./Components/PlacementReset";
 import ResetPassword from "./Components/ResetPassword";
 import SuccessfulPage from "./Components/SuccessfulPage";
 import Recruiterregistration from "./Components-Registrationpages/Recruiter-registration";
+import LandingPage from "./Components-Landingpage/LandingPage";
 
 
 
@@ -43,6 +44,12 @@ function App() {
           <Route
           path="/recruiter-registration"
           element={<Recruiterregistration />}
+
+        />
+
+         <Route
+          path="/landingpage"
+          element={<LandingPage />}
 
         />
 
