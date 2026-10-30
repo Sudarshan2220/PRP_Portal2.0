@@ -17,13 +17,13 @@ button,a {
     font:inherit;
 }
 
-.prp-page {
+.LandingPage-page {
     width:100%;
     overflow:hidden;
     background:#fff;
 }
 
-.prp-header {
+.LandingPage-header {
     height:80px;
     display:flex;
     align-items:center;
@@ -34,7 +34,7 @@ button,a {
     gap:18px;
 }
 
-.prp-brand {
+.LandingPage-brand {
     display:flex;
     align-items:center;
     gap:12px;
@@ -46,7 +46,7 @@ button,a {
     min-width:205px;
 }
 
-.prp-brand-mark {
+.LandingPage-brand-mark {
     width:29px;
     height:29px;
     border-radius:7px;
@@ -57,13 +57,13 @@ button,a {
     flex-shrink:0;
 }
 
-.prp-brand-mark img {
+.LandingPage-brand-mark img {
     width:35px;
     height:35px;
     object-fit:contain;
 }
 
-.prp-nav {
+.LandingPage-nav {
     height:100%;
     display:flex;
     align-items:center;
@@ -73,7 +73,7 @@ button,a {
     margin:0 28px;
 }
 
-.prp-nav a {
+.LandingPage-nav a {
     height:100%;
     display:flex;
     align-items:center;
@@ -85,7 +85,7 @@ button,a {
     font-weight: 100px;
 }
 
-.prp-nav a.active:after {
+.LandingPage-nav a.LandingPage-active:after {
     content:"";
     position:absolute;
     bottom:13px;
@@ -95,13 +95,13 @@ button,a {
     background:#142d59;
 }
 
-.prp-auth {
+.LandingPage-auth {
     display:flex;
     gap:10px;
     flex-shrink:0;
 }
 
-.prp-auth button {
+.LandingPage-auth button {
     border:0;
     border-radius:6px;
     height:24px;
@@ -112,15 +112,15 @@ button,a {
     cursor:pointer;
 }
 
-.prp-login {
+.LandingPage-login {
     background:#14708e;
 }
 
-.prp-register {
+.LandingPage-register {
     background:#102754;
 }
 
-.prp-hero {
+.LandingPage-hero {
     min-height:368px;
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -130,18 +130,18 @@ button,a {
     gap:35px;
 }
 
-.prp-hero-copy {
+.LandingPage-hero-copy {
     padding-top:1px;
 }
 
-.prp-eyebrow {
+.LandingPage-eyebrow {
     font-size:14px;
     font-weight:500;
     margin:0 0 22px;
     color:#142d59;
 }
 
-.prp-hero h1 {
+.LandingPage-hero h1 {
     font-size:25px;
     line-height:1.45;
     letter-spacing:-.5px;
@@ -150,7 +150,7 @@ button,a {
     color:#142d59;
 }
 
-.prp-hero-description {
+.LandingPage-hero-description {
     font-size:14px;
     line-height:1.55;
     color:#242a34;
@@ -158,13 +158,13 @@ button,a {
     max-width:480px;
 }
 
-.prp-hero-actions {
+.LandingPage-hero-actions {
     display:flex;
     gap:16px;
     margin-top:23px;
 }
 
-.prp-hero-actions button {
+.LandingPage-hero-actions button {
     height:42px;
     padding:0 23px;
     border-radius:10px;
@@ -174,33 +174,33 @@ button,a {
     cursor:pointer;
 }
 
-.prp-primary {
+.LandingPage-primary {
     background:#102b5b;
     color:#fff;
     border:1px solid #102b5b;
 }
 
-.prp-secondary {
+.LandingPage-secondary {
     background:#fff;
     color:#142d59;
     border:1px solid #e7eaf0;
 }
 
-.prp-hero-art {
+.LandingPage-hero-art {
     display:flex;
     align-items:center;
     justify-content:center;
     min-width:0;
 }
 
-.prp-hero-art img {
+.LandingPage-hero-art img {
     display:block;
     width:min(100%,460px);
     height:270px;
     object-fit:contain;
 }
 
-.prp-features {
+.LandingPage-features {
     min-height:355px;
     padding:32px 4.7% 25px;
     text-align:center;
@@ -208,28 +208,28 @@ button,a {
     color:#142d59;
 }
 
-.prp-section-eyebrow {
+.LandingPage-section-eyebrow {
     font-size:14px;
     font-weight:500;
     color: #333334;
     margin:0 0 23px;
 }
 
-.prp-features h2,.prp-stories h2 {
+.LandingPage-features h2,.LandingPage-stories h2 {
     font-size:16px;
     font-weight:600;
     margin:0;
     color:#132A56;
 }
 
-.prp-feature-grid {
+.LandingPage-feature-grid {
     display:grid;
     grid-template-columns:repeat(5,minmax(0,1fr));
     gap:30px;
     margin-top:29px;
 }
 
-.prp-feature-card {
+.LandingPage-feature-card {
     height:200px;
     width: 175px;
     background:#fff;
@@ -242,7 +242,7 @@ button,a {
     color:#142d59;
 }
 
-.prp-feature-icon {
+.LandingPage-feature-icon {
     height:52px;
     width:52px;
     border-radius:50%;
@@ -254,13 +254,13 @@ button,a {
     flex-shrink:0;
 }
 
-.prp-feature-icon img {
+.LandingPage-feature-icon img {
     width:50px;
     height:50px;
     object-fit:contain;
 }
 
-.prp-feature-card h3 {
+.LandingPage-feature-card h3 {
     font-size:14px;
     font-weight:400;
     line-height:1.25;
@@ -269,7 +269,7 @@ button,a {
     letter-spacing:-.3px;
 }
 
-.prp-feature-card p {
+.LandingPage-feature-card p {
     font-size:12px;
     line-height:1.35;
     color:#3d3d3d;
@@ -277,52 +277,67 @@ button,a {
     margin:0;
 }
 
-.prp-stories {
+.LandingPage-stories {
     min-height:373px;
     padding:57px 4.7% 50px;
     text-align:center;
     background:linear-gradient(105deg,#536b94 0%,#c3ccdb 48%,#fff 75%);
 }
 
-.prp-stories .prp-section-eyebrow {
+.LandingPage-stories .LandingPage-section-eyebrow {
     margin-bottom:23px;
     color: #333334;
 }
 
-.prp-stories h2 {
+.LandingPage-stories h2 {
     font-size:16px;
     margin-bottom:29px;
     color:#132A56;
 
 }
 
-.prp-story-grid {
+.LandingPage-story-grid {
     display:grid;
     grid-template-columns:repeat(3,minmax(0,1fr));
     gap:21px;
     text-align:left;
 }
 
-.prp-story-card {
+.LandingPage-story-card {
+    position:relative;
     height:190px;
-    width: 300px;
+    width:300px;
     border-radius:25px;
-    background:#142d59;
+    background:#132A56;
     border:1px solid #7188aa;
     color:#fff;
     padding:24px 24px 5px;
     overflow:hidden;
 }
 
-.prp-story-top {
-    display:flex;
-    align-items:center;
-    gap:10px;
-    position:relative;
-    min-height:20px;
+.LandingPage-quotes-image {
+    position:absolute;
+    top:10px;
+    right:16px;
+    width:88px;
+    height:88px;
+    object-fit:contain;
+    opacity:0.22;
+    z-index:0;
+    pointer-events:none;
 }
 
-.prp-avatar {
+.LandingPage-story-top {
+    display:flex;
+    align-items:center;
+    gap:14px;
+    position:relative;
+    z-index:1;
+    min-height:80px;
+    padding-right:58px;
+}
+
+.LandingPage-avatar {
     width:70px;
     height:70px;
     display:flex;
@@ -332,34 +347,35 @@ button,a {
     overflow:hidden;
 }
 
-.prp-avatar img {
+.LandingPage-avatar img {
     width:70px;
     height:70px;
     object-fit:contain;
 }
 
-.prp-person {
+.LandingPage-person {
     min-width:0;
-    z-index:1;
+    position:relative;
+    z-index:2;
 }
 
-.prp-stars-image {
+.LandingPage-stars-image {
     display:block;
-    width:54px;
-    height:10px;
+    width:100px;
+    height:20px;
     object-fit:contain;
     object-position:left center;
-    /* margin-bottom:15px; */
+    margin:0 0 5px;
 }
 
-.prp-person h3 {
+.LandingPage-person h3 {
     font-size:11px;
     font-weight:600;
     /* margin:1px 0 15px; */
     color:#e5e9f1;
 }
 
-.prp-person p {
+.LandingPage-person p {
     font-size:7px;
     /* margin:0; */
     color:#4D5A81;
@@ -367,17 +383,17 @@ button,a {
 }
 
 
-.prp-quote {
-    font-size:10px;
-    line-height:1.35;
+.LandingPage-quote {
+    font-size:11px;
+    line-height:1.45;
     font-style:italic;
-    color:#4D5A81;
-    /* margin:17px 0 0; */
+    color:#8290b0;
+    margin:17px 0 0;
     position:relative;
     z-index:1;
 }
 
-.prp-trusted {
+.LandingPage-trusted {
     height:175px;
     text-align:center;
     padding:31px 6% 22px;
@@ -386,7 +402,7 @@ button,a {
     border-top:2px solid #7384a2;
 }
 
-.prp-trusted>p {
+.LandingPage-trusted>p {
     font-size:14px;
     letter-spacing:2px;
     font-weight:700;
@@ -394,7 +410,7 @@ button,a {
     color:#333334;
 }
 
-.prp-trusted h2 {
+.LandingPage-trusted h2 {
     font-size:17px;
     letter-spacing:1.4px;
     margin:0 0 30px;
@@ -402,7 +418,7 @@ button,a {
     font-weight:700;
 }
 
-.prp-company-logos {
+.LandingPage-company-logos {
     display:flex;
     align-items:center;
     justify-content:space-around;
@@ -412,14 +428,14 @@ button,a {
     height:25px;
 }
 
-.prp-company-logos img {
+.LandingPage-company-logos img {
     width:auto;
     max-width:110px;
     height:39px;
     object-fit:contain;
 }
 
-.prp-footer {
+.LandingPage-footer {
     min-height:270px;
     background:linear-gradient(105deg,#081633 0%,#1c294b 100%);
     color:#d4d9e6;
@@ -427,14 +443,14 @@ button,a {
     padding:31px 6.2% 18px;
 }
 
-.prp-footer-columns {
+.LandingPage-footer-columns {
     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:45px;
     min-height:132px;
 }
 
-.prp-footer-columns h3 {
+.LandingPage-footer-columns h3 {
     font-size:8px;
     letter-spacing:1px;
     color:#fff;
@@ -442,7 +458,7 @@ button,a {
     font-weight:700;
 }
 
-.prp-footer-columns a {
+.LandingPage-footer-columns a {
     display:block;
     text-decoration:none;
     color:#aeb8cc;
@@ -451,7 +467,7 @@ button,a {
     margin-bottom:10px;
 }
 
-.prp-footer-bottom {
+.LandingPage-footer-bottom {
     border-top:3px solid #283552;
     display:flex;
     justify-content:space-between;
@@ -460,116 +476,128 @@ button,a {
     margin-top:0;
 }
 
-.prp-footer-bottom>p {
+.LandingPage-footer-bottom>p {
     font-size:7px;
     color:#8190aa;
     margin:0;
 }
 
-.prp-socials {
+.LandingPage-socials {
     display:flex;
     align-items:center;
     gap:17px;
 }
 
-.prp-socials img {
+.LandingPage-socials img {
     width:14px;
     height:14px;
     object-fit:contain;
 }
 
 @media(min-width:1500px) {
-    .prp-header {
+    .LandingPage-header {
         height:64px;
         padding-inline:28px;
     }
-    .prp-nav a {
+    .LandingPage-nav a {
         font-size:11px;
     }
-    .prp-brand {
+    .LandingPage-brand {
         font-size:14px;
     }
-    .prp-auth button {
+    .LandingPage-auth button {
         height:31px;
         font-size:12px;
         min-width:90px;
     }
-    .prp-hero {
+    .LandingPage-hero {
         min-height:430px;
     }
-    .prp-features {
+    .LandingPage-features {
         padding-top:40px;
         padding-bottom:34px;
     }
-    .prp-feature-card {
+    .LandingPage-feature-card {
         height:205px;
     }
-    .prp-story-card {
+    .LandingPage-story-card {
         height:195px;
     }
-    .prp-stories {
+    .LandingPage-stories {
         padding-top:65px;
     }
 }
 
 @media(max-width:1000px) {
-    .prp-header {
+    .LandingPage-header {
         padding:0 14px;
         gap:10px;
     }
-    .prp-brand {
+    .LandingPage-brand {
         min-width:auto;
         font-size:10px;
     }
-    .prp-nav {
+    .LandingPage-nav {
         margin:0 8px;
         gap:15px;
     }
-    .prp-nav a {
+    .LandingPage-nav a {
         font-size:8px;
     }
-    .prp-auth button {
+    .LandingPage-auth button {
         min-width:55px;
         padding:0 10px;
     }
-    .prp-hero {
+    .LandingPage-hero {
         padding-inline:6%;
         gap:20px;
     }
-    .prp-feature-grid {
+    .LandingPage-feature-grid {
         gap:13px;
     }
-    .prp-feature-card h3 {
+    .LandingPage-feature-card h3 {
         font-size:12px;
         white-space:normal;
         min-height:30px;
         margin-bottom:8px;
     }
-    .prp-feature-card p {
+    .LandingPage-feature-card p {
         font-size:11px;
     }
-    .prp-story-card {
+    .LandingPage-story-card {
         padding:18px 15px;
     }
-    .prp-story-top {
+    .LandingPage-quotes-image {
+    position:absolute;
+    top:12px;
+    right:18px;
+    width:55px;
+    height:55px;
+    object-fit:contain;
+    opacity:0.13;
+    z-index:0;
+    pointer-events:none;
+}
+
+.LandingPage-story-top {
         gap:9px;
     }
-    .prp-person p {
+    .LandingPage-person p {
         white-space:normal;
     }
 }
 
 @media(max-width:700px) {
-    .prp-header {
+    .LandingPage-header {
         height:auto;
         min-height:60px;
         flex-wrap:wrap;
         padding:10px 14px;
     }
-    .prp-brand {
+    .LandingPage-brand {
         flex:1;
     }
-    .prp-nav {
+    .LandingPage-nav {
         order:3;
         flex-basis:100%;
         overflow-x:auto;
@@ -578,110 +606,125 @@ button,a {
         margin:0;
         gap:25px;
     }
-    .prp-nav a {
+    .LandingPage-nav a {
         font-size:10px;
     }
-    .prp-nav a.active:after {
+    .LandingPage-nav a.LandingPage-active:after {
         bottom:0;
     }
-    .prp-hero {
+    .LandingPage-hero {
         grid-template-columns:1fr;
         padding:42px 8%;
         gap:20px;
     }
-    .prp-hero h1 {
+    .LandingPage-hero h1 {
         font-size:30px;
     }
-    .prp-hero-description {
+    .LandingPage-hero-description {
         font-size:13px;
     }
     .desktop-break {
         display:none;
     }
-    .prp-hero-art img {
+    .LandingPage-hero-art img {
         height:220px;
     }
-    .prp-features {
+    .LandingPage-features {
         padding:35px 6%;
     }
-    .prp-feature-grid {
+    .LandingPage-feature-grid {
         grid-template-columns:repeat(2,minmax(0,1fr));
         gap:14px;
     }
-    .prp-feature-card {
+    .LandingPage-feature-card {
         height:180px;
     }
-    .prp-feature-card:last-child {
+    .LandingPage-feature-card:last-child {
         grid-column:1/-1;
         max-width:calc(50% - 7px);
         width:100%;
         justify-self:center;
     }
-    .prp-stories {
+    .LandingPage-stories {
         padding:42px 6%;
     }
-    .prp-story-grid {
+    .LandingPage-story-grid {
         grid-template-columns:1fr;
         gap:15px;
     }
-    .prp-story-card {
+    .LandingPage-story-card {
         height:auto;
         min-height:165px;
         padding:22px;
     }
-    .prp-quote {
+    .LandingPage-quote {
         font-size:11px;
     }
-    .prp-trusted {
+    .LandingPage-trusted {
         height:auto;
         padding:30px 6%;
     }
-    .prp-company-logos {
+    .LandingPage-company-logos {
         height:auto;
         flex-wrap:wrap;
         justify-content:center;
         gap:22px 28px;
     }
-    .prp-company-logos img {
+    .LandingPage-company-logos img {
         max-width:80px;
     }
-    .prp-footer {
+    .LandingPage-footer {
         padding:30px 7% 18px;
     }
-    .prp-footer-columns {
+    .LandingPage-footer-columns {
         grid-template-columns:repeat(2,1fr);
         gap:28px;
         min-height:0;
         padding-bottom:25px;
     }
-    .prp-footer-bottom {
+    .LandingPage-footer-bottom {
         margin-top:0;
     }
-    .prp-footer-columns h3 {
+    .LandingPage-footer-columns h3 {
         margin-bottom:13px;
     }
 }
 
 @media(max-width:380px) {
-    .prp-auth button {
+    .LandingPage-auth button {
         min-width:48px;
         padding:0 8px;
     }
-    .prp-feature-grid {
+    .LandingPage-feature-grid {
         grid-template-columns:1fr;
     }
-    .prp-feature-card,.prp-feature-card:last-child {
+    .LandingPage-feature-card,.LandingPage-feature-card:last-child {
         max-width:none;
         grid-column:auto;
     }
-    .prp-hero-actions {
+    .LandingPage-hero-actions {
         gap:10px;
     }
-    .prp-hero-actions button {
+    .LandingPage-hero-actions button {
         padding:0 16px;
     }
-    .prp-footer-columns {
+    .LandingPage-footer-columns {
         gap:24px 15px;
     }
 }
 
+
+@media(max-width:700px) {
+    .LandingPage-quotes-image {
+        width:48px;
+        height:48px;
+        right:14px;
+        top:12px;
+    }
+}
+
+@media(max-width:700px) {
+ .LandingPage-stars-image { width:90px; height:18px; }
+ .LandingPage-quotes-image { width:70px; height:70px; right:12px; top:10px; }
+ .LandingPage-story-top { padding-right:48px; }
+}
