@@ -8,6 +8,7 @@ import ResetPassword from "./Components/ResetPassword";
 import SuccessfulPage from "./Components/SuccessfulPage";
 import Recruiterregistration from "./Components-Registrationpages/Recruiter-registration";
 import LandingPage from "./Components-Landingpage/LandingPage";
+import ChangePassword from "./Components-CandidateDashboard/ChangePassword";
 
 
 
@@ -53,6 +54,11 @@ function App() {
 
         />
 
+         <Route
+          path="/ChangePassword"
+          element={<ChangePassword />}
+
+        />
       </Routes>
     </BrowserRouter>
   );
